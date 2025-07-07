@@ -1,16 +1,12 @@
 {
-  "name": "server",
+  "name": "lms-root",
   "version": "1.0.0",
-  "main": "server.js",
+  "private": true,
   "type": "module",
   "scripts": {
-    "server": "nodemon server.js",
-    "start": "node server.js"
+    "build": "echo 'Vercel build step'",
+    "start": "node api/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@clerk/express": "^1.7.4",
     "cloudinary": "^2.7.0",
@@ -19,8 +15,8 @@
     "express": "^5.1.0",
     "mongoose": "^8.16.1",
     "multer": "^2.0.1",
-    "nodemon": "^3.1.10",
     "stripe": "^18.3.0",
-    "svix": "^1.42.0"
+    "svix": "^1.42.0",
+    "serverless-http": "^3.0.0"
   }
 }
