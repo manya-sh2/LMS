@@ -10,7 +10,7 @@ const Footer = () => {
         <img className='hidden md:block w-20' src={assets.logo} alt="logo" />
         <div className='hidden md:block h-6 w-px bg-gray-400'></div>
         <p className='text-xs md:text-sm text-gray-500'>
-          Copyright 2025 © GreatStack. All Rights Reserved.
+          Copyright 2025 © Edemy. All Rights Reserved.
         </p>
       </div>
 
