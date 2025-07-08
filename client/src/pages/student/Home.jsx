@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../../components/student/Hero'
-import Companies from '../../components/student/companies'
+import Companies from '../../components/student/Companies'
 import CoursesSection from '../../components/student/CoursesSection'
 import TestimonialSections from '../../components/student/TestimonialSections'
 import CallToAction from '../../components/student/CallToAction'
